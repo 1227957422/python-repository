@@ -1,0 +1,8 @@
+raw = input()
+data = list(map(int, raw.split()))
+data.sort()
+max_val = max(data)
+avg = sum(data)/len(data)
+print(data)
+print(max_val)
+print(avg)
